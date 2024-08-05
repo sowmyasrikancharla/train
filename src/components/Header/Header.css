@@ -1,0 +1,40 @@
+.train-img{
+    width: 65%;
+    height: 70vh;
+    background-size: cover;
+    align-self: flex-end;
+}
+.header-con-left{
+    background-color: #1c4966;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 20px;
+}
+.header-head{
+    font-size: 35px;
+    color: #ffffff;
+    font-family:cursive;
+    margin:10px;
+}
+.header-con{
+    display: flex;
+}
+.header-text{
+    color: #000000;
+    font-size: 18px;
+    font-family: Itallic;
+}
+.view-button{
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px;
+    align-self: center;
+}
+.view-button:hover{
+    background-color: green;
+}

@@ -1,0 +1,46 @@
+.icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 90px;
+}
+.nav{
+    background-color: #00000e;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.nav-head{
+    color: aqua;
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 4px;
+}
+.nav-middle{
+    display: flex;
+    color:white;
+    list-style-type: none;
+    justify-content: center;
+    width: 60%;
+}
+.nav-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.sign-in-button{
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left:40%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sign-in-button:hover{
+    background-color: aqua;
+}
+.active{
+    color: aqua;
+    text-decoration: underline;
+    padding-bottom: 2px;
+    border-bottom: 2px;
+}

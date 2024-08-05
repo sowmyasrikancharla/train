@@ -1,0 +1,27 @@
+.explore-trains{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.train{
+    height:100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 90px;
+}
+.explore-trains-list{display: flex;
+flex-direction: row;
+text-align: center;
+align-items: center;
+overflow-x: scroll;
+justify-items: space-between;
+cursor: pointer;
+}
+.explore-trains-list::-webkit-scrollbar{
+    display: none;
+}
+.pop-head{
+    margin: 5px;
+}
